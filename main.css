@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Hubballi&family=Outfit:wght@300;400;600&family=Qwitcher+Grypen&family=Roboto&family=Tajawal:wght@200&display=swap');
+
+/*We set the background color for the body*/
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+/*Style for the container of the card*/
+.cardcontainer {
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+/*Style for the div that contains the image and overlay*/
+.imgcontainer {
+    position: relative;
+    width: 260px;
+}
+
+/*Style for the main image*/
+.mainimage {
+    width: 260px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    display: block;
+}
+
+/*Stay for the overlay when hover*/
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 8px;
+}
+
+.imgcontainer:hover .overlay {
+    opacity: 0.7;
+    background-color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.icon {
+    margin-left: 107px;
+    margin-top: 100px;
+    opacity: 1;
+    z-index: 2;
+}
+
+/*Style for the title*/
+.titlep {
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+    font-size: large;
+}
+
+.titlep:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+/*Style for the description*/
+.description {
+    color: rgb(117, 133, 162);
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 13px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+/*Style for the etherum and the text*/
+.etherum {
+    padding-left: 20px;
+    padding-right: 5px;
+    float: left;
+    display: inline;
+    vertical-align: middle;
+}
+
+.etherumtext {
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-size: small;
+    display: inline;
+}
+
+/*Style for the clock and the text*/
+.clock {
+    padding-left: 100px;
+    display: inline;
+    vertical-align: bottom;
+}
+
+.clocktext {
+    display: inline;
+    font-family: 'Outfit', sans-serif;
+    font-size: small;
+    color: hsl(215, 51%, 70%);
+    padding-bottom: 20px;
+}
+
+/*Style for the separation*/
+hr {
+    border: 0.5px solid rgb(50, 64, 87);
+    width: 250px;
+    margin-top: 20px;
+}
+
+
+/*Style for the avatar and the text*/
+.avatar {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    vertical-align: -10px;
+}
+
+.identifier {
+    font-family: 'Outfit', sans-serif;
+    font-size: small;
+    display: inline;
+    color: rgb(117, 133, 162);
+    margin-left: 10px;
+    font-size: medium;
+}
+
+.identifier span {
+    color: white;
+}
+
+.identifier span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+/*Style for the footer*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
